@@ -5,9 +5,7 @@ VisualStudioVersion = 16.0.29306.81
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi", "WebApi\WebApi.csproj", "{B461042A-D522-4840-8972-FD13A7E98FF4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC client", "MVC client\MVC client.csproj", "{7AB6D0DF-7AF4-4097-B1A1-38A02850D8BC}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTest", "XUnitTest\XUnitTest.csproj", "{642E760B-809A-4016-A77E-C9E9CEF005FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XUnitTest", "XUnitTest\XUnitTest.csproj", "{642E760B-809A-4016-A77E-C9E9CEF005FE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,10 +17,6 @@ Global
 		{B461042A-D522-4840-8972-FD13A7E98FF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B461042A-D522-4840-8972-FD13A7E98FF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B461042A-D522-4840-8972-FD13A7E98FF4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7AB6D0DF-7AF4-4097-B1A1-38A02850D8BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7AB6D0DF-7AF4-4097-B1A1-38A02850D8BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7AB6D0DF-7AF4-4097-B1A1-38A02850D8BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7AB6D0DF-7AF4-4097-B1A1-38A02850D8BC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{642E760B-809A-4016-A77E-C9E9CEF005FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{642E760B-809A-4016-A77E-C9E9CEF005FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{642E760B-809A-4016-A77E-C9E9CEF005FE}.Release|Any CPU.ActiveCfg = Release|Any CPU

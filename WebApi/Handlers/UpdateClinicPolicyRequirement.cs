@@ -1,13 +1,10 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
-using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Text;
 using System.Threading.Tasks;
-using WebApi.Controllers;
 using WebApi.Models;
 
 namespace WebApi.Handlers
@@ -23,7 +20,7 @@ namespace WebApi.Handlers
             try
             {
 
-                string body = ObjectsRepository.GetRawBodyString(_contextAccessor.HttpContext, new UTF8Encoding());
+                string body = RequestBodyHandler.GetRawBodyString(_contextAccessor.HttpContext, new UTF8Encoding());
                 newClinic = JsonConvert.DeserializeObject<Clinic>(body);
                 _contextAccessor.HttpContext.Request.Headers.TryGetValue("username", out var username);
                 User user = ObjectsRepository.users.Find(x => x.Username.Equals(username.ToString()));
